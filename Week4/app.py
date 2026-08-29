@@ -1,15 +1,20 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
+from huggingface_hub import hf_hub_download
 import joblib
 import numpy as np
 
 app = FastAPI(
     title="House Price Prediction API",
-    description="API for predicting California house values using the trained Project 2 Random Forest model.",
+    description="API for predicting California house values using a trained Random Forest model.",
     version="1.0.0"
 )
 
-MODEL_PATH = "house_price_model.joblib"
+MODEL_PATH = hf_hub_download(
+    repo_id="ujjwlshrma/house-price-prediction-model",
+    filename="house_price_model.joblib"
+)
+
 model = joblib.load(MODEL_PATH)
 
 
@@ -36,11 +41,15 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "healthy", "model_loaded": True}
+    return {
+        "status": "healthy",
+        "model_loaded": True
+    }
 
 
 @app.post("/predict")
 def predict(features: HouseFeatures):
+
     data = np.array([[
         features.MedInc,
         features.HouseAge,
