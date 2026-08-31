@@ -1,6 +1,6 @@
 # Environment Setup
 
-Tools and libraries used for the machine learning project:
+Tools and libraries used for the machine learning projects:
 
 - Python
 - Google Colab
@@ -11,4 +11,4 @@ Tools and libraries used for the machine learning project:
 - Scikit-learn
 - Joblib
 
-The development environment was prepared and the required libraries were used to build and evaluate the machine learning model.
+The development environment was prepared and the required libraries were used for data preprocessing, machine learning model development, clustering, evaluation, visualization, and model saving.
