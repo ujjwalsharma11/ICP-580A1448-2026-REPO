@@ -52,6 +52,3 @@
 
 ## Final Repository Link
 https://github.com/ujjwalsharma11/ICP-580A1448-2026-REPO
-
-## Note
-Before submitting, verify the official portal requirements and save proof of successful submission.
