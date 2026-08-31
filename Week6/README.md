@@ -29,4 +29,3 @@ An unsupervised machine learning project using K-Means, DBSCAN, PCA, and cluster
 - [x] Project 3 completed
 - [x] GitHub repository is public
 - [x] LinkedIn posts completed
-- [ ] Final portal submission pending
