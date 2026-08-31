@@ -30,5 +30,3 @@ An unsupervised machine learning project using K-Means, DBSCAN, PCA, and cluster
 - [x] GitHub repository is public
 - [x] LinkedIn posts completed
 - [ ] Final portal submission pending
-
-The remaining step is to submit the GitHub repository link through the official portal when available.
