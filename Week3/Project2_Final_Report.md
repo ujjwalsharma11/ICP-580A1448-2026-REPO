@@ -66,11 +66,7 @@ The most important features were:
 ## 10. Model Saving
 The trained model was successfully saved as `house_price_model.joblib`.
 
-This model will be reused in Project 8 for deployment through an API.
-
 ## 11. Conclusion
 This project demonstrates a complete regression workflow from data preparation to model evaluation and tuning. Linear Regression was used as a baseline, while Random Forest provided stronger predictive performance.
 
 Feature engineering, cross-validation, hyperparameter tuning, and error analysis were applied to assess and improve the model. The final trained model achieved an MAE of 0.3278, RMSE of 0.5037, and R² of 0.8064 on the test set.
-
-The saved model is ready to be reused for the Model Deployment API project.
