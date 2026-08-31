@@ -40,5 +40,5 @@ The notebook produces:
 - Residual distribution
 - Feature importance
 - `house_price_model.joblib`
-
-The saved model is intended to be reused in Project 8 (Model Deployment API).
+  
+The trained model is saved as `house_price_model.joblib` for future predictions and experimentation.
