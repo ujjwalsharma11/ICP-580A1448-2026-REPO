@@ -45,10 +45,5 @@
 - Project 2: https://www.linkedin.com/posts/ujjwal-sharma-358980431_machinelearning-artificialintelligence-python-activity-7500161036495392768-TT3c
 - Project 3: https://lnkd.in/p/gsMTkcDj
 
-## Final Portal Submission
-- [ ] Official submission instructions checked
-- [ ] GitHub repository link submitted through the official portal
-- [ ] Submission confirmation saved
-
 ## Final Repository Link
 https://github.com/ujjwalsharma11/ICP-580A1448-2026-REPO
